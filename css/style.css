@@ -1,0 +1,163 @@
+
+body {
+  font-family: 'Merriweather', serif;
+}
+nav .img-logo {
+  width: 60px;
+  height: 55px;
+}
+nav ul a,
+nav .brand-logo {
+  color: #26a69a;
+  padding-left: 50%;
+}
+
+nav .brand-logo {
+  font-family: 'Courgette', cursive;
+
+  
+}
+
+
+.nav-wrapper {
+  padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,1);
+
+}
+
+   #index-banner .parallax {
+    -webkit-filter: brightness(0.40);filter: brightness(0.40);
+   }
+
+.valign-wrapper .parallax {
+    -webkit-filter: brightness(0.40);filter: brightness(0.40);
+  }
+
+.section-intro {
+    height:100%;
+    width:100%;
+  }
+
+.header {
+  margin-top: 8%
+}
+
+.header-subtitle{
+  margin-top: 5%
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .section-banner-chiusura no-pad-bot{
+    -webkit-filter: brightness(0.30);filter: brightness(0.30);
+   }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav-wrapper {
+  padding: 0 10px;
+  }
+}
+
+.servizi {
+  margin-top: 65px;
+}
+
+.section-registrazione {
+    height:100%;
+    width:100%;
+}
+  
+.registrazione-icon {
+  font-size:7em;
+  margin-top:60px;
+}
+
+.registrazione sub-title {
+  font-size: 1.3em;
+  margin-top: : 5%;
+}
+
+.btn-registrazione {
+  width: 100%
+}
+
+.contattaci-icon {
+  font-size:7em;
+  margin-top:30px;
+  color: #26a69a;
+}
+
+.contattaci sub-title {
+  font-size: 1.3em;
+  margin-top: 5%;
+  line-height: 2em;
+}
+
+.btn-contattaci {
+  width: 100%;
+  margin-top: 2.5%;
+  margin-bottom: 50px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.registrazione {
+  margin-top: 65px;
+}
+.contattaci {
+  margin-top: 40px;
+}
+
+
+.section-banner-chiusura {
+    height:100%;
+    width:100%;
+}
+  
+footer.page-footer {
+  margin: 0;
+  background-color: #26a69a;
+}
+
+footer.page-footer .img-logo {
+  width:200px;
+  height:200px;
+}
+
+.social-icon {
+  font-size: 3.5em;
+  color: white;
+  padding: 5%;
+}
