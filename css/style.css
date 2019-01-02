@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Merriweather', serif;
 }
@@ -9,15 +8,11 @@ nav .img-logo {
 nav ul a,
 nav .brand-logo {
   color: #26a69a;
-  padding-left: 50%;
 }
 
 nav .brand-logo {
   font-family: 'Courgette', cursive;
-
-  
 }
-
 
 .nav-wrapper {
   padding: 0 50px;
@@ -29,7 +24,6 @@ p {
 
 .sidenav-trigger {
   color: #26a69a;
-
 }
 
 .parallax-container {
@@ -87,6 +81,7 @@ p {
 
 .servizi {
   margin-top: 65px;
+  text-align: justify;
 }
 
 .section-registrazione {
